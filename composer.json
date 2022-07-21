@@ -1,6 +1,8 @@
 {
     "name": "hexlet/code",
+    "bin": ["bin/brain-games"],
     "description": "my first project :)",
+    "license": "proprietary",
     "authors": [
         {
             "name": "dapofig"
