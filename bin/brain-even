@@ -10,3 +10,6 @@ if (file_exists($autoloadPath1)) {
 } else {
     require_once $autoloadPath2;
 }
+use function BrainGames\Even\play;
+
+play();
