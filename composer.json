@@ -4,7 +4,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "description": "my first project :)",
     "license": "proprietary",
@@ -22,6 +23,7 @@
             "src/Games/Even.php",
             "src/Games/Calc.php",
             "src/Games/GCD.php",
+            "src/Games/Progression.php",
             "src/Engine.php"
         ]
     },
