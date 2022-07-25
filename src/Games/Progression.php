@@ -9,10 +9,10 @@ const DESCRIPTION = 'Find the greatest common divisor of given numbers.';
 function getProgression()
 {
     $start = rand(2, 50);
-    $result[] = $start;
+    $result = [];
     for ($i = 0, $difference = rand(1, 5); $i < 9; $i++) {
-        $start += $difference;
         $result[] = $start;
+        $start += $difference;
     }
     return $result;
 }

@@ -8,7 +8,7 @@ const DESCRIPTION = 'Find the greatest common divisor of given numbers.';
 const MIN_NUM = 1;
 const MAX_NUM = 100;
 
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
     while ($b !== 0) {
         $remainder = $a % $b;
