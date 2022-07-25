@@ -2,7 +2,8 @@
     "name": "hexlet/code",
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "description": "my first project :)",
     "license": "proprietary",
@@ -17,7 +18,9 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/Even.php"
+            "src/Games/Even.php",
+            "src/Games/Calc.php",
+            "src/Engine.php"
         ]
     },
     "require-dev": {
