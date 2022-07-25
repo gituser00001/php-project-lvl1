@@ -10,7 +10,7 @@ function getProgression()
 {
     $start = rand(2, 50);
     $result = [];
-    for ($i = 0, $difference = rand(1, 5); $i < 9; $i++) {
+    for ($i = 0, $difference = rand(1, 5); $i < 10; $i++) {
         $result[] = $start;
         $start += $difference;
     }
@@ -21,7 +21,7 @@ function play()
 {
     $roundData = function () {
         $progression = getProgression();
-        $randNum = $progression[rand(2, 9)];
+        $randNum = $progression[rand(1, 9)];
         $question = implode(' ', str_replace($randNum, '..', $progression));
         $answer = (string) $randNum;
         return [
