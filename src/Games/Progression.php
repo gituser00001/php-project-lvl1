@@ -11,8 +11,8 @@ function getProgression()
     $start = rand(2, 50);
     $result[] = $start;
     for ($i = 0, $difference = rand(1, 5); $i < 9; $i++) {
-        $result[] = $start;
         $start += $difference;
+        $result[] = $start;
     }
     return $result;
 }
