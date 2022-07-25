@@ -2,8 +2,6 @@
 
 namespace BrainGames\Games\Even;
 
-use function cli\line;
-use function cli\prompt;
 use function BrainGames\Engine\run;
 
 const DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".';
