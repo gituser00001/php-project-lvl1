@@ -24,7 +24,7 @@ function play()
         $num1 = rand(MIN_NUM, MAX_NUM);
         $num2 = rand(MIN_NUM, MAX_NUM);
         $question = "$num1 $num2";
-        $answer = gcd($num1, $num2);
+        $answer = (string) gcd($num1, $num2);
         return [
             'question' => $question,
             'answer' => $answer
