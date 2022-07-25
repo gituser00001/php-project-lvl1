@@ -3,7 +3,8 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "description": "my first project :)",
     "license": "proprietary",
@@ -20,6 +21,7 @@
             "src/Cli.php",
             "src/Games/Even.php",
             "src/Games/Calc.php",
+            "src/Games/GCD.php",
             "src/Engine.php"
         ]
     },
