@@ -21,7 +21,7 @@ function play()
 {
     $roundData = function () {
         $progression = getProgression();
-        $randNum = $progression[rand(2, 10)];
+        $randNum = $progression[rand(2, 9)];
         $question = implode(' ', str_replace($randNum, '..', $progression));
         $answer = (string) $randNum;
         return [
